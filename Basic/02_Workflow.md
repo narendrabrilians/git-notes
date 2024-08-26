@@ -9,15 +9,3 @@
 1. Working Directory
 2. Staging Area (Staging Index)
 3. Repository
-
-# Working Directory to Staging Area
-
-```bash
-git add
-```
-
-# Staging Area to Repository
-
-```bash
-git commit
-```
