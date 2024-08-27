@@ -1,11 +1,33 @@
-# Working Directory to Staging Area
+# git add
 
 ```bash
-git add
+git add .
 ```
 
-# Staging Area to Repository
+```bash
+git add file1.txt
+```
 
 ```bash
-git commit
+git add file1.txt file2.txt
+```
+
+# git commit
+
+```bash
+git commit -m "feat: add feature a"
+```
+
+# git status
+
+```bash
+git status
+```
+
+# git diff
+
+See the changes
+
+```bash
+git diff
 ```
