@@ -2,7 +2,9 @@
 
 ```bash
 git config --global user.name "Your Name"
+```
 
+```bash
 git config --global user.email "youremail@company.com"
 ```
 
@@ -18,6 +20,9 @@ git config --global core.editor "code --wait"
 
 ```bash
 git config --global diff.tool "default-difftool"
+```
+
+```bash
 git config --global difftool.default-difftool.cmd "code --wait --diff" \$LOCAL \$REMOTE
 ```
 

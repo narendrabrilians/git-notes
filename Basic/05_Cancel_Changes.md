@@ -2,17 +2,25 @@
 
 ## Cancel Adding Files
 
-delete files or `git clean -f`
+Delete files or
+
+```bash
+ git clean -f
+```
 
 ## Cancel Changes Files & Cancel Deleted Files
 
-`git restore file.txt`
+```bash
+git restore file.txt
+```
 
 # Staging Area
 
 ## Change Position from Staging Area to Working Directory
 
-`git restore --staged file.txt`
+```bash
+git restore --staged file.txt
+```
 
 # Already Committed
 
