@@ -1,27 +1,31 @@
-# Working Directory
+# WORKING DIRECTORY
 
-## Cancel Adding Files
+## Membatalkan Penambahan File
 
-Delete files or
+Hapus file secara manual atau gunakan perintah berikut:
 
 ```bash
  git clean -f
 ```
 
-## Cancel Changes Files & Cancel Deleted Files
+## Membatalkan Perubahan pada File & Mengembalikan File yang Terhapus
 
 ```bash
 git restore file.txt
 ```
 
-# Staging Area
+<br>
 
-## Change Position from Staging Area to Working Directory
+# STAGING AREA
+
+## Mengembalikan File dari Staging Area ke Working Directory
 
 ```bash
 git restore --staged file.txt
 ```
 
-# Already Committed
+<br>
 
-Rollback Commit? Revert Commit?
+# SETELAH COMMIT
+
+Rollback Commit & Revert Commit
