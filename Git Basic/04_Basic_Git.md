@@ -1,32 +1,42 @@
-# git add
+# MEMINDAHKAN PERUBAHAN WORKING DIRECTORY KE STAGING AREA
+
+## Memindahkan Semua Perubahan
 
 ```bash
 git add .
 ```
 
+## Memindahkan Perubahan Satu File
+
 ```bash
 git add file1.txt
 ```
+
+## Memindahkan Perubahan Beberapa File
 
 ```bash
 git add file1.txt file2.txt
 ```
 
-# git commit
+<br>
+
+# MELAKUKAN COMMIT DARI STAGING AREA KE REPOSITORY
 
 ```bash
-git commit -m "feat: add feature a"
+git commit -m "pesan commit"
 ```
 
-# git status
+<br>
+
+# MENAMPILKAN STATUS PERUBAHAN
 
 ```bash
 git status
 ```
 
-# git diff
+<br>
 
-See the changes
+# MELIHAT DETAIL PERUBAHAN
 
 ```bash
 git diff
