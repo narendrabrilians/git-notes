@@ -1,15 +1,35 @@
-# Ignore
+# IGNORE
 
-create file .gitignore
+Terkadang kita tidak ingin Git melacak semua file dalam proyek, misalnya file konfigurasi lingkungan (`.env`) atau file sementara.
 
-## Ignore folder log (example)
+## Cara Menggunakan
 
-`log/`
+1. Buat file `.gitignore` di root repository
 
-## Ignore file with extension .backup (example)
+2. Tambahkan daftar file atau folder yang ingin diabaikan di dalamnya
 
-`*.backup`
+## Contoh `.gitignore`
 
-## Ignore file (example)
+### Mengabaikan Folder
 
-`ignore.txt`
+Gunakan format berikut untuk mengabaikan folder tertentu:
+
+```gitignore
+nama_folder/
+```
+
+### Mengabaikan File dengan Ekstensi Tertentu
+
+Gunakan wildcard `*` untuk mengabaikan semua file dengan ekstensi tertentu:
+
+```gitignore
+*.backup
+```
+
+### Mengabaikan File Tertentu
+
+Tulis nama file langsung untuk mengabaikannya:
+
+```gitignore
+nama_file.txt
+```
