@@ -8,7 +8,7 @@ Jika ingin melihat kembali isi file1.txt pada commit tertentu, gunakan perintah 
 git checkout <hash> -- file1.txt
 ```
 
-> **Catatan:** Isi `file1.txt` akan berubah sesuai dengan commit `<hash>` yang dipilih dan akan masuk ke **staging area**.
+> Isi `file1.txt` akan berubah sesuai dengan commit `<hash>` yang dipilih dan akan masuk ke **staging area**.
 
 ## Jika Ingin Membatalkan Perubahan
 

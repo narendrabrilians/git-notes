@@ -8,4 +8,4 @@ Daripada melakukan `git reset` lalu commit ulang, kita bisa menggunakan **amend 
 git commit --amend -m "pesan commit baru"
 ```
 
-> Catatan: Jika sudah melakukan push, gunakan amend commit dengan hati-hati karena akan mengubah riwayat commit.
+> Jika sudah melakukan push, gunakan amend commit dengan hati-hati karena akan mengubah riwayat commit.
